@@ -4,12 +4,14 @@ import styles from './statistics.module.css';
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={styles.component}>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
       <ul className={styles.list}>
         {stats.map(stat => (
           <li className={styles.categories} key={stat.id}>
-            <span>{stat.label} =</span>
-            <span>{stat.percentage}%</span>
+            <span className={styles.label}>
+              {stat.label} <a className={styles.equal}>=</a>
+            </span>
+            <span className={styles.percentage}>{stat.percentage}%</span>
           </li>
         ))}
       </ul>
