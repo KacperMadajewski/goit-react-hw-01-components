@@ -1,0 +1,27 @@
+.background {
+    background-color: rgb(197, 178, 178);
+}
+
+.avatar {
+display: flex;
+max-width: 400px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+padding-left: auto;
+gap: 5px;
+}
+
+.Components {
+    display: flex;
+    max-width: 100px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(173, 154, 154);
+}
