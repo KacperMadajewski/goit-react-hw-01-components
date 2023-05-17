@@ -1,0 +1,9 @@
+.components {
+  list-style: none;
+}
+
+.span {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+}
