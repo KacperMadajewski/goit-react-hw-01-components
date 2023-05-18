@@ -1,0 +1,16 @@
+.table {
+  border: 4px solid;
+  margin-left: 50px;
+}
+
+.title {
+  border: 2px solid;
+  border-color: grey;
+  background-color: aqua;
+}
+
+.data {
+  border: 1px solid;
+  border-color: rgba(128, 128, 128, 0.345);
+  background-color: rgba(210, 105, 30, 0.589);
+}
